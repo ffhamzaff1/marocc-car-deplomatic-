@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleModelInfo__InitDataList>
+    <Item>
+        <modelName>marocdiplocar</modelName>    <!-- اسم مود السيارة -->
+        <txdName>marocdiplocar</txdName>        <!-- نفس اسم مود الـ textures -->
+        <handlingId>marocdiplocar</handlingId> <!-- معرف التعامل مع السيارة -->
+        <gameName>MAROC DIPLO</gameName>        <!-- اسم يظهر في اللعبة -->
+        <vehicleMakeName>MAROC</vehicleMakeName>
+        <vehicleClass>SEDAN</vehicleClass>      <!-- نوع السيارة -->
+        <layout>LAYOUT_DEFAULT</layout>          <!-- تخطيط السيارة -->
+        <flags>0</flags>
+        <damageFlags>0</damageFlags>
+        <weaponDamageMult>1.0</weaponDamageMult>
+        <wheelType>0</wheelType>
+        <animGroup>1</animGroup>
+        <suspensionMultiplier>1.0</suspensionMultiplier>
+    </Item>
+</CVehicleModelInfo__InitDataList>
