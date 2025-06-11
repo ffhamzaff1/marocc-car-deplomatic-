@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HandlingData>
+    <Item>
+        <handlingName>marocdiplocar</handlingName>
+        <fMass>1800.0</fMass>                           <!-- وزن السيارة بالكيلوغرام -->
+        <fInitialDragCoeff>7.0</fInitialDragCoeff>
+        <fDownforceModifier>1.2</fDownforceModifier>
+        <fPercentSubmerged>85.0</fPercentSubmerged>
+        <vecCentreOfMassOffset x="0.0" y="0.0" z="0.0" />
+        <vecInertiaMultiplier x="1.0" y="1.0" z="1.0" />
+        <fDriveBiasFront>0.0</fDriveBiasFront>
+        <nInitialDriveGears>6</nInitialDriveGears>   <!-- عدد السرعات -->
+        <fInitialDriveForce>0.35</fInitialDriveForce> <!-- قوة الدفع -->
+        <fDriveInertia>1.0</fDriveInertia>
+        <fClutchChangeRateScaleUpShift>2.5</fClutchChangeRateScaleUpShift>
+        <fClutchChangeRateScaleDownShift>2.5</fClutchChangeRateScaleDownShift>
+        <fInitialDriveMaxFlatVel>155.0</fInitialDriveMaxFlatVel> <!-- السرعة القصوى -->
+        <fBrakeForce>0.9</fBrakeForce>
+        <fBrakeBiasFront>0.45</fBrakeBiasFront>
+        <fHandBrakeForce>1.0</fHandBrakeForce>
+        <fSteeringLock>35.0</fSteeringLock>
+        <fTractionCurveMax>2.4</fTractionCurveMax>
+        <fTractionCurveMin>2.1</fTractionCurveMin>
+        <fTractionCurveLateral>18.5</fTractionCurveLateral>
+        <fTractionSpringDeltaMax>0.15</fTractionSpringDeltaMax>
+        <fLowSpeedTractionLossMult>1.0</fLowSpeedTractionLossMult>
+        <fCamberStiffnesss>0.0</fCamberStiffnesss>
+        <fTractionBiasFront>0.48</fTractionBiasFront>
+        <fTractionLossMult>1.0</fTractionLossMult>
+        <fSuspensionForce>2.8</fSuspensionForce>
+        <fSuspensionCompDamp>1.5</fSuspensionCompDamp>
+        <fSuspensionReboundDamp>2.0</fSuspensionReboundDamp>
+        <fSuspensionUpperLimit>0.10</fSuspensionUpperLimit>
+        <fSuspensionLowerLimit>-0.12</fSuspensionLowerLimit>
+        <fSuspensionRaise>0.0</fSuspensionRaise>
+        <fSuspensionBiasFront>0.55</fSuspensionBiasFront>
+        <fAntiRollBarForce>0.8</fAntiRollBarForce>
+        <fAntiRollBarBiasFront>0.6</fAntiRollBarBiasFront>
+        <fRollCentreHeightFront>0.2</fRollCentreHeightFront>
+        <fRollCentreHeightRear>0.2</fRollCentreHeightRear>
+        <fCollisionDamageMult>0.7</fCollisionDamageMult>
+        <fWeaponDamageMult>1.0</fWeaponDamageMult>
+        <fDeformationDamageMult>0.8</fDeformationDamageMult>
+        <fEngineDamageMult>1.0</fEngineDamageMult>
+        <fPetrolTankVolume>65.0</fPetrolTankVolume>
+        <fOilVolume>5.0</fOilVolume>
+        <fSeatOffsetDistX>0.0</fSeatOffsetDistX>
+        <fSeatOffsetDistY>0.0</fSeatOffsetDistY>
+        <fSeatOffsetDistZ>0.0</fSeatOffsetDistZ>
+        <nMonetaryValue>35000</nMonetaryValue>
+        <strModelFlags>440010</strModelFlags>
+        <strHandlingFlags>0</strHandlingFlags>
+        <strDamageFlags>0</strDamageFlags>
+        <AIHandling>AVERAGE</AIHandling>
+        <fPopUpLightRotation>0.0</fPopUpLightRotation>
+        <fFrontLightsBrightness>1.0</fFrontLightsBrightness>
+        <fRearLightsBrightness>1.0</fRearLightsBrightness>
+    </Item>
+</HandlingData>
