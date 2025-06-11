@@ -1,24 +1,24 @@
 fx_version 'cerulean'
 game 'gta5'
 
-author 'اسمك هنا'
-description 'سيارة ديبلوماسية مغربية للسفراء في FiveM'
+author 'ffhamzaff1'
+description 'سيارة ديبلوماسية مغربية للسفراء'
 version '1.0.0'
 
 client_scripts {
-    'config.lua',  -- إذا بغيتي تستعمل ملف إعدادات خارجي (اختياري)
+    'config.lua',
     'client.lua'
 }
 
 files {
-    'stream/marocdiplocar.yft',
-    'stream/marocdiplocar.ytd',
-    'stream/vehicles.meta',
-    'stream/handling.meta',
-    'stream/vehiclelayouts.meta'
+    'marocdiplocar.yft',
+    'marocdiplocar.ytd',
+    'handling.meta',
+    'vehiclelayouts.meta',
+    'vehicles.meta',
 }
 
-data_file 'VEHICLE_METADATA_FILE' 'stream/vehicles.meta'
-data_file 'HANDLING_FILE' 'stream/handling.meta'
-data_file 'VEHICLE_LAYOUTS_FILE' 'stream/vehiclelayouts.meta'
-data_file 'VEHICLE_VARIATION_FILE' 'stream/vehicles.meta'
+data_file 'HANDLING_FILE' 'handling.meta'
+data_file 'VEHICLE_LAYOUTS_FILE' 'vehiclelayouts.meta'
+data_file 'VEHICLE_METADATA_FILE' 'vehicles.meta'
+data_file 'VEHICLE_VARIATION_FILE' 'vehicles.meta'
