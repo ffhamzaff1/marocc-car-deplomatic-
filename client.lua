@@ -36,5 +36,11 @@ RegisterCommand("safir", function()
     TriggerEvent('chat:addMessage', {
         color = {0, 255, 0},
         args = {"🚘", "سيارة السفير المغربي تم استدعاؤها!"}
+local carModel = Config.CarModel
+local plateText = Config.PlateText
+local primaryColor = Config.PrimaryColor
+local secondaryColor = Config.SecondaryColor
+
+
     })
 end)
